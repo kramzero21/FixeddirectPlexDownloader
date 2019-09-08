@@ -1,14 +1,3 @@
-# FixeddirectPlexDownloader
-Fixed Version for NinthWalker Script  
-
-#Updater: Kramzero
-#NOTE:  Script needs to run with the following Execution Policy:	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-#
-#Updated to display URL on screen and File Name.
-#Fixed Script to execute "Get-BitsTransfer | Complete-BitsTransfer" after download finished to complete the download and change 
-#the tmp file to correct name!
-#
-
 Developers Note:
 This script/repo is no longer maintained. Please see the new and improved plex downloader app called Saverr.
 Thanks!
@@ -23,6 +12,7 @@ Requires knowing a few things about the plex server:
 Plex Token (Either the server owners token, or the token issued to you for accessing a friends server)
 Plex Server url:port (can be a known ip, the plex.direct url, or a friendly url )
 Metadata ID of the movie/show you want to download.
+
 A better method of this would be to make this in python and use the plex-api to search for the name of what you want,
 rather than needing the metadata ID, but I'll leave that for someone else.
 
