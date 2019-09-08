@@ -1,7 +1,3 @@
-Developers Note:
-This script/repo is no longer maintained. Please see the new and improved plex downloader app called Saverr.
-Thanks!
-
 Direct Plex Downloader
 Powershell script to download items from a Plex Server.
 
